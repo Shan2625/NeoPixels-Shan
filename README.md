@@ -18,7 +18,7 @@ LED_BRIGHTNESS = 255       # How bright the lights should be (max brightness)
 LED_INVERT = False         # Don't flip the signal to the lights
 
 # --- Customizable Color Theme --- 
-# These are the special colors we will use to make our lights pretty
+# These are the special colors we will use
 BASE_COLOR       = (0, 105, 148)     # Deep Blue color
 ACCENT_COLOR     = (139, 69, 19)     # Burnt Amber color (like orange-brown)
 SPARKLE_COLOR    = (240, 240, 240)   # Soft White sparkle color
@@ -153,7 +153,7 @@ def final_fade_out(duration=5.5):
         strip.show()
         time.sleep(0.05)
 
-# --- Master Sequence: run all dance moves one after another ---
+# --- Master Sequence: run all Scenes one after another ---
 def run_temple_sequence():
     try:
         base_accent_pulse(duration=5.5)   # Scene 1: pulsing lights
@@ -172,7 +172,7 @@ if __name__ == "__main__":
         intro_fade_to_base(duration=6)   # First, fade from magenta to blue
         run_temple_sequence()            # Then, play all the dance moves
     finally:
-        turn_off_leds()                  # At the end, turn off all lights. What the Code Does?
+        turn_off_leds()                  # At the end, turn off all lights. 
 
 
 
