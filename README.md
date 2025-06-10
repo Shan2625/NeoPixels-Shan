@@ -1,4 +1,4 @@
-Shan's Neopixel Sequence EGL 313
+Shan's Neopixel Sequence EGL 314
 
 Temple Awakening Light Show
 This project is a custom NeoPixel light show designed to run on a Raspberry Pi using the rpi_ws281x library. It controls 300 addressable LEDs wrapped around a pedestal, syncing dramatic lighting effects to a soundtrack. The current version includes a complete 40-second sequence with 7 scenes
