@@ -1,0 +1,9 @@
+  Dependencies for NeoPixel LED Control Code
+
+- `rpi_ws281x` : For controlling WS281x/NeoPixel LED strips on Raspberry Pi  
+  Install with: `pip install rpi_ws281x`
+
+- `python-osc` : For sending OSC messages via UDP  
+  Install with: `pip install python-osc`
+
+- Python standard libraries: `time`, `random` (no installation needed)
