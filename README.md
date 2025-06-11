@@ -11,9 +11,9 @@ This project is a custom NeoPixel light show designed to run on a Raspberry Pi u
 
 ## Setup
 1. Connect NeoPixel strip to GPIO18 with proper power supply
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+2. Install dependencies: check assets folder "dependencies"
+   
+ 
 
 
 Here's the code: 
