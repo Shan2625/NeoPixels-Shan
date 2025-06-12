@@ -1,0 +1,9 @@
+These are the Hardware components I used and are required to proceed with this Project
+ Hardware Components
+
+Raspberry Pi 4  as the main controller. Runs the Python script and sends pixel data to the LEDs.
+MicroSD Card (16GB+)	For the Raspberry Pi’s operating system and project files.
+5V Power Supply (5V, 10A recommended)	Powers the NeoPixel strip (300 LEDs can draw up to 18A at full brightness).
+NeoPixel LED Strip (WS2812B, 300 LEDs)	Individually addressable RGB LEDs to create stunning animations.
+Jumper Wires / Breadboard	For wiring and prototyping. Helps with connections between components.
+Ground Wire (GND Bridge)	A simple wire connecting the Raspberry Pi’s GND pin to the GND of the LED power supply. This ensures a shared electrical reference and stabilizes the signal.
